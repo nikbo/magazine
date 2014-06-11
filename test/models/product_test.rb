@@ -61,6 +61,7 @@ http://a.b.c/x/y/z/fred.gif }
     assert_equal ["has already been taken"], product.errors[:title]
 # уже было использовано
   end
+
   #   assert true
   # end
 end
